@@ -27,7 +27,7 @@ jobs:
         run: python -m py_compile  *.py
       
       - name: Check imports work
-        run: python -c "from pdf_loader import pdf_to_text; from chunker import text_to_chunks; from embedder import embed_chunks; from vector_store import store_chunks_in_chroma; from retriever import retrieve_chunks; from llm_client import llm_answer; from rag_agent import RAGAgent; print('✅ All imports successful')"
+        run: python -c "from pdf import pdf_to_text; from chunker import text_to_chunks; from embedder import embed_chunks; from vector_search import store_chunks_in_chroma; from retriever import retrieve_chunks; from llm_answer import llm_answer; from rag_agent import RAGAgent; print('✅ All imports successful')"
 
   security:
     runs-on: ubuntu-latest
