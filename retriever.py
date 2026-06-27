@@ -43,5 +43,5 @@ def retrieve_chunks(collection, question: str, k: int = 5) -> list[dict]:
     
     return retrieved_chunks
 
-r = retrieve_chunks(store_chunks_in_chroma(embed_chunks(text_to_chunks())), "What is Linux?", k=3)
-print(r)
+# r = retrieve_chunks(store_chunks_in_chroma(embed_chunks(text_to_chunks())), "What is Linux?", k=3)
+# print(r)
