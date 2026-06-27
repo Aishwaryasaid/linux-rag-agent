@@ -3,7 +3,7 @@ from pypdf import PdfReader
 
 #remove max_pages argument to run on all pages of the PDF
 def pdf_to_text(max_pages=10) : 
-    pdf_path = "linux.pdf"
+    pdf_path = "Linux.pdf"
     """Extract text from all pages of a PDF.
        
        Args:
