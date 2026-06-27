@@ -33,5 +33,5 @@ class RAGAgent:
         return formatted
     
     
-r = RAGAgent(pdf_path="Linux.pdf")
-print(r.ask("What is the difference between a process and a thread?"))
+# r = RAGAgent(pdf_path="Linux.pdf")
+# print(r.ask("What is the difference between a process and a thread?"))
